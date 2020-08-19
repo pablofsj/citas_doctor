@@ -14,7 +14,7 @@
 
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item class="items" href="#"><router-link tag="b-nav-item" v-bind:to="{ name: 'auth' }">Login/Registro</router-link></b-nav-item>
+          <b-nav-item class="items" href="#"><router-link tag="b-nav-item" v-bind:to="{ name: 'auth' }">Login</router-link></b-nav-item>
           <b-nav-item class="items" v-if="user" href="#"><router-link tag="b-nav-item" v-bind:to="{ name: 'success' }">Listado de citas</router-link></b-nav-item>
           <b-nav-item class="items" v-if="user" href="#"><router-link tag="b-nav-item" v-bind:to="{ name: 'agendar' }">Agendar</router-link></b-nav-item>
           <b-nav-item class="items" v-if="user" @click.prevent="logout" href="#"><router-link tag="b-nav-item" v-bind:to="{ name: 'auth' }">Salir</router-link></b-nav-item>
