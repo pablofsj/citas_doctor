@@ -2,11 +2,10 @@
   <div class="container">
     <div class="row">
       <div id="error_panel" class="col-md-12 col-sm-12" v-if="error">
-        <b-alert show variant="danger">{{error}} </b-alert>
+        <b-alert show variant="danger">{{error}}</b-alert>
       </div>
       <div class="col-md-6 col-sm-12">
         <b-form @submit.prevent="register">
-          
           <h3>Registro</h3>
           <h3 class="post_header"></h3>
           <br>

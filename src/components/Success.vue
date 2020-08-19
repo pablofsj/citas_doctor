@@ -44,7 +44,6 @@ export default {
         { key: 'fecha', sortable: true},
         { key: 'hora', sortable: true},
         { key: 'nombre', sortable: true},
-        { key: 'edad', sortable: true},
         { key: 'sintoma', sortable: true}
       ],
       filter: null
